@@ -57,13 +57,13 @@ void main() {
   // print("Вам ${age}, вы ${name}.");
 
   // ##################5
-  //   print("Введите номер телефона:");
-  //   int? num = int.parse(stdin.readLineSync()!);
-  //   if (num.length == 10) {
-  //     print("Your num is ${num}");
-  //   } else {
-  //     print("Not valid num.");
-  //   }
+  // print("Введите номер телефона:");
+  // String? num = stdin.readLineSync();
+  // if (num!.length == 10) {
+  //   print("Your num is ${num}");
+  // } else {
+  //   print("Not valid num.");
+  // }
 
   // ##################6
   // print('Какая сегодня погода? (Опции: дождливо, солнечно): ');
@@ -179,9 +179,9 @@ void main() {
   // }
 
   // ##################17
-  int a = 6;
-  for (int i = 1; i <= 5; i++) {
-    a = a - 1;
-    print(a);
-  }
+  // int a = 6;
+  // for (int i = 1; i <= 5; i++) {
+  //   a = a - 1;
+  //   print(a);
+  // }
 }
