@@ -154,12 +154,12 @@ void main() {
   // print(z);
 
   // ##################14
-  List a = [1, 1, 2, 3, 5, 8, 13, 21, 34, 55, 89];
-  List b = [];
-  for (int i = 0; i < 5; i++) {
-    b.add(a[i]);
-  }
-  print(b);
+  // List a = [1, 1, 2, 3, 5, 8, 13, 21, 34, 55, 89];
+  // List b = [];
+  // for (int i = 0; i < 5; i++) {
+  //   b.add(a[i]);
+  // }
+  // print(b);
 
   // ##################15
   // print("Введите число:");
@@ -180,4 +180,18 @@ void main() {
   //   a = a - 1;
   //   print(a);
   // }
+
+  // ##################13/2
+  // print("Введите трехзначное число:");
+  // int? n = int.parse(stdin.readLineSync()!);
+  int m = 2234;
+  List arr = m.toString().split('');
+  print(arr);
+  String first = arr.last;
+  String last = arr.first;
+  arr.removeLast();
+  arr.add(last);
+  arr.removeAt(0);
+  arr.insert(0, first);
+  print(arr);
 }
